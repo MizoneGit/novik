@@ -1,0 +1,273 @@
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+}
+
+a:hover {
+    color: #070707;
+    transition: linear 0.3s;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Gilroy', 'PT Sans Narrow', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrapper {
+    padding: 0 20px;
+}
+.container {
+    max-width: 986px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    color: #070707;
+    font-weight: bold;
+}
+
+.title--lg {
+    font-size: 47px;
+}
+
+.title--md {
+    font-size: 34px;
+}
+
+.description {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header__body {
+    padding: 33px 0 36px;
+    border-bottom: 1px #828282 solid;
+}
+
+.menu__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__link {
+    font-weight: bold;
+    font-size: 18px;
+}
+.main__wrapper {
+    padding-bottom: 104px;
+}
+.main__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 30px 0 42px;
+}
+
+.main__language {
+    transform: rotate(-90deg);
+    margin-bottom: 35px;
+    margin-right: -20px;
+    margin-left: -26px;
+}
+.main__description {
+    max-width: 155px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 13px;
+    margin-left: -55px;
+}
+
+.main__photo {
+    max-height: 387px;
+}
+
+.main__photo img {
+    width: 100%;
+}
+
+.background--black {
+    background-color: #F6F6F6;
+}
+
+.about__wrapper {
+    padding: 113px 0 107px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__content {
+    text-align: center;
+}
+
+.about__title {
+    padding-bottom: 23px;
+}
+
+.about__description {
+    max-width: 485px;
+}
+
+.about__text {
+    padding-top: 45px;
+}
+
+.about__text:first-child {
+    padding-top: 0;
+}
+
+.skills__wrapper {
+    padding: 89px 0 110px;
+}
+
+.skills__title {
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.skills__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    column-gap: 20px;
+}
+
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__item-logo {
+    max-width: 88px;
+    min-height: 88px;
+    padding-bottom: 14px;
+}
+
+.skills__item-logo img {
+    width: 100%;
+}
+
+.skills__description {
+    text-align: center;
+    margin-bottom: 91px;
+}
+
+.skills__item-description {
+    flex: 1;
+    font-weight: bold;
+    font-size: 14px;
+    color: #828282;
+    text-align: center;
+    padding: 0 0 38px;
+}
+
+.stars {
+    display: flex;
+    gap: 9px;
+}
+
+.star {
+    width: 26px;
+    height: 26px;
+}
+
+.star--active {
+    background: url("../img/Star.svg") no-repeat;
+}
+
+.star--disable {
+    background: url("../img/Stardis.svg") no-repeat;
+}
+
+.portfolio__inner {
+    padding: 105px 0 0;
+}
+
+.portfolio__title {
+    margin-bottom: 54px;
+    text-align: center;
+}
+
+.portfolio__item {
+    padding-bottom: 100px;
+}
+
+.portfolio__item-img {
+    max-width: 100%;
+    max-height: 522px;
+}
+
+.portfolio__item-img img {
+    background-size: cover;
+    width: 100%;
+}
+
+.portfolio__item-description {
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.footer__inner {
+    padding: 96px 0 123px;
+}
+
+.footer__title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.footer__description {
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 34px;
+}
+
+.btn {
+    padding: 8px 29px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #070707;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.footer__btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px
+}
+
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+}
+
+.footer__social-description {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+}
