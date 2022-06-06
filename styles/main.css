@@ -82,6 +82,7 @@ body {
 
 .mobile-menu__open {
     display: none;
+    line-height: 58px;
 }
 
 .main__wrapper {
@@ -357,7 +358,6 @@ body {
         display: block;
         position: absolute;
         right: 0;
-        line-height: 34px;
     }
 
     .mobile-menu {
